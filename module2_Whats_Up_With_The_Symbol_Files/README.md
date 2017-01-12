@@ -66,4 +66,10 @@
 ### info warranty -- Various kinds of warranty you do not have
 ### info watchpoints -- Status of specified watchpoints (all watchpoints if no argument)
 ### info win -- List of all displayed windows
-### 
+
+
+### objcopy --only-keep-debug rip_from_binary_debug debug_file - Ripping Symbols of Binary 
+### strip --strip-debug --strip-unneeded binary_to_strip
+### objcopy --add-gnu-debuglink=debug_file binary
+### symbol-file file_name
+
