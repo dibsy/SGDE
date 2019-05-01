@@ -1,5 +1,5 @@
 ### ### GDB COMMANDS
-### 
+```
 ### list 1 - Lists the source code [ provided the source code is there ]
 ### info - Will give list of info subcommands
 ### info functions - All function Names
@@ -72,4 +72,5 @@
 ### strip --strip-debug --strip-unneeded binary_to_strip
 ### objcopy --add-gnu-debuglink=debug_file binary
 ### symbol-file file_name
+```
 
